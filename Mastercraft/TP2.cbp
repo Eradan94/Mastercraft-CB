@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="TP2" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="Test_sdl12" prefix_auto="1" extension_auto="1" />
+				<Option object_output="D:/Users/Aurelien/Documents/Divers_Aurelien/Travail/M2 SIS/Travail/Synthese_Image/GLImac-Template/TP1/Test_sdl12/.objs" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="shaders/3D.vs.glsl shaders/3D.fs.glsl" />
+				<Compiler>
+					<Add option="-std=c++14" />
+					<Add option="-g" />
+					<Add option="-DNO_STDIO_REDIRECT=1" />
+				</Compiler>
+				<Linker>
+					<Add directory="../../../../../../../../../../../MinGW32-8.1.0 - Copie/MinGW32-8.1.0 - Copie/SDL-1.2/lib" />
+					<Add directory="C:/MinGW32-8.1.0 - Copie/MinGW32-8.1.0 - Copie/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="Test_sdl12" prefix_auto="1" extension_auto="1" />
+				<Option object_output="D:/Users/Aurelien/Documents/Divers_Aurelien/Travail/M2 SIS/Travail/Synthese_Image/GLImac-Template/TP1/Test_sdl12/.objs" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Option parameters="shaders/orbe.vs.glsl shaders.orbe.fs.glsl" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-std=c++14" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c++14" />
+			<Add directory="C:/MinGW32-8.1.0 - Copie/MinGW32-8.1.0 - Copie/SDL-1.2/include" />
+			<Add directory="../glimac/include" />
+			<Add directory="../third-party/include" />
+			<Add directory="../../../src" />
+		</Compiler>
+		<Linker>
+			<Add library="glew32" />
+			<Add library="opengl32" />
+			<Add library="mingw32" />
+			<Add library="SDLmain" />
+			<Add library="SDL.dll" />
+			<Add library="user32" />
+			<Add library="gdi32" />
+			<Add library="winmm" />
+			<Add library="dxguid" />
+			<Add library="../../../build/libc3ga.dll.a" />
+			<Add directory="C:/MinGW32-8.1.0 - Copie/MinGW32-8.1.0 - Copie/SDL-1.2/lib" />
+		</Linker>
+		<Unit filename="../../../src/c3ga/Mvec.cpp" />
+		<Unit filename="../assets/models/cornell_box.mtl" />
+		<Unit filename="../assets/models/cornell_box.obj" />
+		<Unit filename="../assets/models/cube.mtl" />
+		<Unit filename="../assets/models/cube.obj" />
+		<Unit filename="../glimac/src/BlockTypes.cpp" />
+		<Unit filename="../glimac/src/Chunk.cpp" />
+		<Unit filename="../glimac/src/Color.cpp" />
+		<Unit filename="../glimac/src/Cone.cpp" />
+		<Unit filename="../glimac/src/Cube.cpp" />
+		<Unit filename="../glimac/src/Cube2.cpp" />
+		<Unit filename="../glimac/src/DecorTypes.cpp" />
+		<Unit filename="../glimac/src/FreeflyCamera.cpp" />
+		<Unit filename="../glimac/src/Geometry.cpp" />
+		<Unit filename="../glimac/src/Image.cpp" />
+		<Unit filename="../glimac/src/MasterCraftCamera.cpp" />
+		<Unit filename="../glimac/src/Player.cpp" />
+		<Unit filename="../glimac/src/Program.cpp" />
+		<Unit filename="../glimac/src/SDLWindowManager.cpp" />
+		<Unit filename="../glimac/src/Shader.cpp" />
+		<Unit filename="../glimac/src/Sphere.cpp" />
+		<Unit filename="../glimac/src/SuperChunk.cpp" />
+		<Unit filename="../glimac/src/TexturesAtlas.cpp" />
+		<Unit filename="../glimac/src/TrackballCamera.cpp" />
+		<Unit filename="../glimac/src/World.cpp" />
+		<Unit filename="../glimac/src/tiny_obj_loader.cpp" />
+		<Unit filename="Main.cpp" />
+		<Unit filename="cb.bmp" />
+		<Unit filename="shaders/color2D.fs.glsl" />
+		<Unit filename="shaders/color2D.vs.glsl" />
+		<Unit filename="shaders/grey2d.fs.glsl" />
+		<Unit filename="shaders/grey2d.vs.glsl" />
+		<Unit filename="shaders/tex2D.fs.glsl" />
+		<Unit filename="shaders/tex2D.vs.glsl" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

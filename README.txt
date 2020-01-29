@@ -1,0 +1,1 @@
+Le code principal de ce projet est situé dans les dossiers glimac et MasterCraft.

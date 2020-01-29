@@ -1,0 +1,1056 @@
+# depslib dependency file v1.0
+1575730811 source:c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\src\c3ga\mvec.cpp
+	"c3ga/Mvec.hpp"
+
+1575730811 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\src\c3ga\mvec.hpp
+	<Eigen/Core>
+	<list>
+	<iostream>
+	<cmath>
+	<limits>
+	"c3ga/Utility.hpp"
+	"c3ga/Constants.hpp"
+	"c3ga/Outer.hpp"
+	"c3ga/Inner.hpp"
+	"c3ga/Geometric.hpp"
+	"c3ga/OuterExplicit.hpp"
+	"c3ga/InnerExplicit.hpp"
+	"c3ga/GeometricExplicit.hpp"
+
+1575730811 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\src\c3ga\utility.hpp
+
+1575730811 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\src\c3ga\constants.hpp
+	<array>
+	<vector>
+	<utility>
+	<string>
+	<Eigen/Sparse>
+	"c3ga/Utility.hpp"
+	"c3ga/BasisTransformations.hpp"
+	"c3ga/DualCoefficients.hpp"
+
+1575730811 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\src\c3ga\basistransformations.hpp
+	<Eigen/Sparse>
+	<vector>
+	<array>
+	<algorithm>
+	<iterator>
+	<sstream>
+
+1575730811 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\src\c3ga\dualcoefficients.hpp
+	<Eigen/Sparse>
+	<vector>
+	<array>
+	<algorithm>
+	<iterator>
+	<sstream>
+
+1575730811 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\src\c3ga\outer.hpp
+	"c3ga/Mvec.hpp"
+
+1575730811 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\src\c3ga\inner.hpp
+	"c3ga/Mvec.hpp"
+	"c3ga/Constants.hpp"
+
+1575730811 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\src\c3ga\geometric.hpp
+	<Eigen/Core>
+	"c3ga/Mvec.hpp"
+	"c3ga/Constants.hpp"
+
+1575730811 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\src\c3ga\outerexplicit.hpp
+	<Eigen/Core>
+	"c3ga/Mvec.hpp"
+	"c3ga/Outer.hpp"
+
+1575730811 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\src\c3ga\innerexplicit.hpp
+	<Eigen/Core>
+	"c3ga/Mvec.hpp"
+	"c3ga/Inner.hpp"
+	"c3ga/Constants.hpp"
+
+1575730811 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\src\c3ga\geometricexplicit.hpp
+	<Eigen/Core>
+	"c3ga/Mvec.hpp"
+	"c3ga/Constants.hpp"
+
+1579446179 source:c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\glimac\src\blocktypes.cpp
+	"glimac/BlockTypes.hpp"
+	<iostream>
+
+1579625026 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\glimac\include\glimac\blocktypes.hpp
+	"glm.hpp"
+	"Color.hpp"
+	"DecorTypes.hpp"
+	<vector>
+
+1578414723 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\glimac\include\glimac\glm.hpp
+	<glm/glm.hpp>
+	<glm/gtc/matrix_transform.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<glm/gtc/constants.hpp>
+	<glm/gtx/io.hpp>
+	<glm/gtc/random.hpp>
+
+1578587148 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\glm.hpp
+	"detail/_fixes.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cassert>
+	"fwd.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"trigonometric.hpp"
+	"exponential.hpp"
+	"common.hpp"
+	"packing.hpp"
+	"geometric.hpp"
+	"matrix.hpp"
+	"vector_relational.hpp"
+	"integer.hpp"
+
+1578587153 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\detail\_fixes.hpp
+	<cmath>
+
+1578587148 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\fwd.hpp
+	"detail/type_int.hpp"
+	"detail/type_float.hpp"
+	"detail/type_vec.hpp"
+	"detail/type_mat.hpp"
+
+1578587152 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\detail\type_int.hpp
+	"setup.hpp"
+	<cstdint>
+
+1578587153 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\detail\setup.hpp
+	<cassert>
+	<cuda.h>
+	<intrin.h>
+	<immintrin.h>
+	<immintrin.h>
+	<smmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1578587152 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1578587152 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\detail\type_vec.hpp
+	"precision.hpp"
+	"type_int.hpp"
+
+1578587153 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\detail\precision.hpp
+
+1578587152 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\detail\type_mat.hpp
+	"precision.hpp"
+
+1578587148 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\vec2.hpp
+	"detail/type_vec2.hpp"
+
+1578587153 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\detail\type_vec2.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1578587152 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\detail\_swizzle.hpp
+
+1578587152 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\detail\_swizzle_func.hpp
+
+1578587152 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\detail\type_vec2.inl
+
+1578587148 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\vec3.hpp
+	"detail/type_vec3.hpp"
+
+1578587152 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\detail\type_vec3.hpp
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1578587153 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\detail\type_vec3.inl
+
+1578587148 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\vec4.hpp
+	"detail/type_vec4.hpp"
+
+1578587153 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\detail\type_vec4.hpp
+	"setup.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1578587152 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\detail\type_vec4.inl
+
+1578587148 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\mat2x2.hpp
+	"detail/type_mat2x2.hpp"
+
+1578587152 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\detail\type_mat2x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_mat.hpp"
+	<limits>
+	"type_mat2x2.inl"
+
+1578587152 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\detail\type_mat2x2.inl
+
+1578587148 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\mat2x3.hpp
+	"detail/type_mat2x3.hpp"
+
+1578587152 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\detail\type_mat2x3.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	"type_mat2x3.inl"
+
+1578587153 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\detail\type_mat2x3.inl
+
+1578587148 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\mat2x4.hpp
+	"detail/type_mat2x4.hpp"
+
+1578587152 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\detail\type_mat2x4.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	"type_mat2x4.inl"
+
+1578587152 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\detail\type_mat2x4.inl
+
+1578587148 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\mat3x2.hpp
+	"detail/type_mat3x2.hpp"
+
+1578587152 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\detail\type_mat3x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	"type_mat3x2.inl"
+
+1578587153 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\detail\type_mat3x2.inl
+
+1578587148 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\mat3x3.hpp
+	"detail/type_mat3x3.hpp"
+
+1578587153 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\detail\type_mat3x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_mat.hpp"
+	<limits>
+	"type_mat3x3.inl"
+
+1578587153 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\detail\type_mat3x3.inl
+
+1578587148 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\mat3x4.hpp
+	"detail/type_mat3x4.hpp"
+
+1578587153 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\detail\type_mat3x4.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	"type_mat3x4.inl"
+
+1578587152 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\detail\type_mat3x4.inl
+
+1578587148 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\mat4x2.hpp
+	"detail/type_mat4x2.hpp"
+
+1578587152 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\detail\type_mat4x2.hpp
+	"../fwd.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	"type_mat4x2.inl"
+
+1578587152 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\detail\type_mat4x2.inl
+
+1578587148 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\mat4x3.hpp
+	"detail/type_mat4x3.hpp"
+
+1578587153 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\detail\type_mat4x3.hpp
+	"../fwd.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	"type_mat4x3.inl"
+
+1578587153 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\detail\type_mat4x3.inl
+
+1578587148 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\mat4x4.hpp
+	"detail/type_mat4x4.hpp"
+
+1578587152 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\detail\type_mat4x4.hpp
+	"../fwd.hpp"
+	"type_vec4.hpp"
+	"type_mat.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1578587153 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\detail\type_mat4x4.inl
+
+1578587148 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\trigonometric.hpp
+	"detail/func_trigonometric.hpp"
+
+1578587153 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\detail\func_trigonometric.hpp
+	"func_trigonometric.inl"
+
+1578587152 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+
+1578587153 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\detail\_vectorize.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+
+1578587152 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\detail\type_vec1.hpp
+	"../fwd.hpp"
+	"type_vec.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1578587153 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\detail\type_vec1.inl
+
+1578587148 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\exponential.hpp
+	"detail/func_exponential.hpp"
+
+1578587152 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\detail\func_exponential.hpp
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<cmath>
+	"func_exponential.inl"
+
+1578587152 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\detail\func_exponential.inl
+	"func_vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cassert>
+
+1578587153 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\detail\func_vector_relational.hpp
+	"precision.hpp"
+	"setup.hpp"
+	"func_vector_relational.inl"
+
+1578587152 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\detail\func_vector_relational.inl
+	<limits>
+
+1578587148 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\common.hpp
+	"detail/func_common.hpp"
+
+1578587152 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\detail\func_common.hpp
+	"setup.hpp"
+	"precision.hpp"
+	"type_int.hpp"
+	"_fixes.hpp"
+	"func_common.inl"
+
+1578587153 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\detail\func_common.inl
+	"func_vector_relational.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+
+1578587148 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\packing.hpp
+	"detail/func_packing.hpp"
+
+1578587153 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\detail\func_packing.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"func_packing.inl"
+
+1578587153 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\detail\func_packing.inl
+	"func_common.hpp"
+	"type_half.hpp"
+	"../fwd.hpp"
+
+1578587153 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\detail\type_half.hpp
+	"setup.hpp"
+	"type_half.inl"
+
+1578587153 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\detail\type_half.inl
+
+1578587148 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\geometric.hpp
+	"detail/func_geometric.hpp"
+
+1578587152 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\detail\func_geometric.hpp
+	"type_vec3.hpp"
+	"func_geometric.inl"
+
+1578587152 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\detail\func_geometric.inl
+	"func_exponential.hpp"
+	"func_common.hpp"
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	"type_float.hpp"
+
+1578587148 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\matrix.hpp
+	"detail/func_matrix.hpp"
+
+1578587153 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\detail\func_matrix.hpp
+	"../detail/precision.hpp"
+	"../detail/setup.hpp"
+	"../detail/type_mat.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	"func_matrix.inl"
+
+1578587152 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+
+1578587148 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\vector_relational.hpp
+	"detail/func_vector_relational.hpp"
+
+1578587148 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\integer.hpp
+	"detail/func_integer.hpp"
+
+1578587153 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\detail\func_integer.hpp
+	"setup.hpp"
+	"func_integer.inl"
+
+1578587153 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\detail\func_integer.inl
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"type_int.hpp"
+	"_vectorize.hpp"
+	<intrin.h>
+	<limits>
+
+1578587151 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\gtc\matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"matrix_transform.inl"
+
+1578587152 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\gtc\constants.hpp
+	"../detail/setup.hpp"
+	"constants.inl"
+
+1578587152 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\gtc\constants.inl
+	<limits>
+
+1578587152 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\gtc\matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1578587151 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\gtc\type_ptr.hpp
+	"../gtc/quaternion.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1578587151 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\gtc\quaternion.hpp
+	"../mat3x3.hpp"
+	"../mat4x4.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../gtc/constants.hpp"
+	"quaternion.inl"
+
+1578587151 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\gtc\quaternion.inl
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"../exponential.hpp"
+	<limits>
+
+1578587151 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\gtc\type_ptr.inl
+	<cstring>
+
+1578587149 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\gtx\io.hpp
+	"../glm.hpp"
+	"../gtx/quaternion.hpp"
+	<iosfwd>
+	<locale>
+	<utility>
+	"io.inl"
+
+1578587150 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\gtx\quaternion.hpp
+	"../glm.hpp"
+	"../gtc/constants.hpp"
+	"../gtc/quaternion.hpp"
+	"../gtx/norm.hpp"
+	"quaternion.inl"
+
+1578587151 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\gtx\norm.hpp
+	"../glm.hpp"
+	"../gtx/quaternion.hpp"
+	"norm.inl"
+
+1578587149 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\gtx\norm.inl
+
+1578587150 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\gtx\quaternion.inl
+	<limits>
+	"../gtc/constants.hpp"
+
+1578587149 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\gtx\io.inl
+	<iomanip>
+	<ostream>
+
+1578587151 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\gtc\random.hpp
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"random.inl"
+
+1578587151 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\third-party\include\glm\gtc\random.inl
+	"../geometric.hpp"
+	"../exponential.hpp"
+	<cstdlib>
+	<ctime>
+	<cassert>
+
+1579626061 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\glimac\include\glimac\color.hpp
+	<iostream>
+	"glm.hpp"
+
+1579641835 source:c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\glimac\src\chunk.cpp
+	<iostream>
+	<vector>
+	<utility>
+	"glimac/common.hpp"
+	"glimac/Chunk.hpp"
+	<glimac/glm.hpp>
+
+1578414723 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\glimac\include\glimac\common.hpp
+	<GL/glew.h>
+	"glm.hpp"
+
+1575572154 c:\mingw32-8.1.0 - copie\mingw32-8.1.0 - copie\sdl-1.2\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1579625471 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\glimac\include\glimac\chunk.hpp
+	"common.hpp"
+	<glimac/Color.hpp>
+	"glimac/BlockTypes.hpp"
+	"glimac/DecorTypes.hpp"
+	"glimac/TexturesAtlas.hpp"
+	"glimac/common.hpp"
+	<glimac/glm.hpp>
+	<vector>
+
+1579614367 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\glimac\include\glimac\texturesatlas.hpp
+	<iostream>
+	<map>
+	<vector>
+	<utility>
+	"glm.hpp"
+
+1579626063 source:c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\glimac\src\color.cpp
+	"glimac/Color.hpp"
+	<iostream>
+
+1578414724 source:c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\glimac\src\cone.cpp
+	<cmath>
+	<vector>
+	<iostream>
+	"glimac/common.hpp"
+	"glimac/Cone.hpp"
+
+1578414723 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\glimac\include\glimac\cone.hpp
+	<vector>
+	"common.hpp"
+
+1578832692 source:c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\glimac\src\cube.cpp
+	<cmath>
+	<vector>
+	<iostream>
+	"glimac/common.hpp"
+	"glimac/Cube.hpp"
+	<glimac/glm.hpp>
+
+1578832641 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\glimac\include\glimac\cube.hpp
+	<vector>
+	"common.hpp"
+
+1578414724 source:c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\glimac\src\cube2.cpp
+	<cmath>
+	<vector>
+	<iostream>
+	"glimac/common.hpp"
+	"glimac/Cube2.hpp"
+	<glimac/glm.hpp>
+
+1578414723 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\glimac\include\glimac\cube2.hpp
+	<vector>
+	"common.hpp"
+
+1578414724 source:c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\glimac\src\freeflycamera.cpp
+	<iostream>
+	<cmath>
+	"glimac/FreeflyCamera.hpp"
+
+1578414723 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\glimac\include\glimac\freeflycamera.hpp
+	<glm/glm.hpp>
+	<glimac/glm.hpp>
+	<math.h>
+
+1578414723 source:c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\glimac\src\geometry.cpp
+	"glimac/Geometry.hpp"
+	"tiny_obj_loader.h"
+	<iostream>
+	<algorithm>
+
+1578414723 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\glimac\include\glimac\geometry.hpp
+	<glm/glm.hpp>
+	<vector>
+	<string>
+	"Image.hpp"
+	"FilePath.hpp"
+	"BBox.hpp"
+
+1578414723 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\glimac\include\glimac\image.hpp
+	<vector>
+	<memory>
+	<unordered_map>
+	"glm.hpp"
+	"FilePath.hpp"
+
+1578414723 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\glimac\include\glimac\filepath.hpp
+	<string>
+
+1578414723 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\glimac\include\glimac\bbox.hpp
+	"glm.hpp"
+
+1578414724 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\glimac\src\tiny_obj_loader.h
+	<string>
+	<vector>
+	<map>
+
+1578414724 source:c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\glimac\src\image.cpp
+	"glimac/Image.hpp"
+	"stb_image.h"
+	<iostream>
+
+1578414724 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\glimac\src\stb_image.h
+	<stdio.h>
+	<math.h>
+	<string.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdint.h>
+
+1579613393 source:c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\glimac\src\mastercraftcamera.cpp
+	<iostream>
+	<cmath>
+	"glimac/MasterCraftCamera.hpp"
+
+1579608136 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\glimac\include\glimac\mastercraftcamera.hpp
+	<glm/glm.hpp>
+	<glimac/glm.hpp>
+	<math.h>
+
+1578414724 source:c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\glimac\src\program.cpp
+	"glimac/Program.hpp"
+	<stdexcept>
+
+1578414723 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\glimac\include\glimac\program.hpp
+	<GL/glew.h>
+	"Shader.hpp"
+	"FilePath.hpp"
+
+1578414723 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\glimac\include\glimac\shader.hpp
+	<GL/glew.h>
+	<string>
+	"FilePath.hpp"
+
+1579449731 source:c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\glimac\src\sdlwindowmanager.cpp
+	"glimac/SDLWindowManager.hpp"
+	<iostream>
+
+1578414723 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\glimac\include\glimac\sdlwindowmanager.hpp
+	<cstdint>
+	<SDL/SDL.h>
+	"glm.hpp"
+
+1575572159 c:\mingw32-8.1.0 - copie\mingw32-8.1.0 - copie\sdl-1.2\include\sdl\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1575572159 c:\mingw32-8.1.0 - copie\mingw32-8.1.0 - copie\sdl-1.2\include\sdl\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1575572159 c:\mingw32-8.1.0 - copie\mingw32-8.1.0 - copie\sdl-1.2\include\sdl\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1575572159 c:\mingw32-8.1.0 - copie\mingw32-8.1.0 - copie\sdl-1.2\include\sdl\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_dreamcast.h"
+	"SDL_config_macos.h"
+	"SDL_config_macosx.h"
+	"SDL_config_symbian.h"
+	"SDL_config_win32.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1575572159 c:\mingw32-8.1.0 - copie\mingw32-8.1.0 - copie\sdl-1.2\include\sdl\sdl_platform.h
+
+1575572159 c:\mingw32-8.1.0 - copie\mingw32-8.1.0 - copie\sdl-1.2\include\sdl\sdl_config_dreamcast.h
+	"SDL_platform.h"
+
+1575572159 c:\mingw32-8.1.0 - copie\mingw32-8.1.0 - copie\sdl-1.2\include\sdl\sdl_config_macos.h
+	"SDL_platform.h"
+	<MacTypes.h>
+
+1575572159 c:\mingw32-8.1.0 - copie\mingw32-8.1.0 - copie\sdl-1.2\include\sdl\sdl_config_macosx.h
+	"SDL_platform.h"
+	<AvailabilityMacros.h>
+
+1575572159 c:\mingw32-8.1.0 - copie\mingw32-8.1.0 - copie\sdl-1.2\include\sdl\sdl_config_symbian.h
+	"SDL_platform.h"
+	<stdarg.h>
+	<stddef.h>
+
+1575572159 c:\mingw32-8.1.0 - copie\mingw32-8.1.0 - copie\sdl-1.2\include\sdl\sdl_config_win32.h
+	"SDL_platform.h"
+
+1575572159 c:\mingw32-8.1.0 - copie\mingw32-8.1.0 - copie\sdl-1.2\include\sdl\sdl_config_os2.h
+	"SDL_platform.h"
+
+1575572159 c:\mingw32-8.1.0 - copie\mingw32-8.1.0 - copie\sdl-1.2\include\sdl\sdl_config_minimal.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1575572159 c:\mingw32-8.1.0 - copie\mingw32-8.1.0 - copie\sdl-1.2\include\sdl\begin_code.h
+
+1575572159 c:\mingw32-8.1.0 - copie\mingw32-8.1.0 - copie\sdl-1.2\include\sdl\close_code.h
+
+1575572159 c:\mingw32-8.1.0 - copie\mingw32-8.1.0 - copie\sdl-1.2\include\sdl\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1575572159 c:\mingw32-8.1.0 - copie\mingw32-8.1.0 - copie\sdl-1.2\include\sdl\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1575572159 c:\mingw32-8.1.0 - copie\mingw32-8.1.0 - copie\sdl-1.2\include\sdl\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1575572159 c:\mingw32-8.1.0 - copie\mingw32-8.1.0 - copie\sdl-1.2\include\sdl\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1575572159 c:\mingw32-8.1.0 - copie\mingw32-8.1.0 - copie\sdl-1.2\include\sdl\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1575572159 c:\mingw32-8.1.0 - copie\mingw32-8.1.0 - copie\sdl-1.2\include\sdl\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1575572159 c:\mingw32-8.1.0 - copie\mingw32-8.1.0 - copie\sdl-1.2\include\sdl\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1575572159 c:\mingw32-8.1.0 - copie\mingw32-8.1.0 - copie\sdl-1.2\include\sdl\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1575572159 c:\mingw32-8.1.0 - copie\mingw32-8.1.0 - copie\sdl-1.2\include\sdl\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1575572159 c:\mingw32-8.1.0 - copie\mingw32-8.1.0 - copie\sdl-1.2\include\sdl\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1575572159 c:\mingw32-8.1.0 - copie\mingw32-8.1.0 - copie\sdl-1.2\include\sdl\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1575572159 c:\mingw32-8.1.0 - copie\mingw32-8.1.0 - copie\sdl-1.2\include\sdl\sdl_keysym.h
+
+1575572159 c:\mingw32-8.1.0 - copie\mingw32-8.1.0 - copie\sdl-1.2\include\sdl\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1575572159 c:\mingw32-8.1.0 - copie\mingw32-8.1.0 - copie\sdl-1.2\include\sdl\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1575572159 c:\mingw32-8.1.0 - copie\mingw32-8.1.0 - copie\sdl-1.2\include\sdl\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1575572159 c:\mingw32-8.1.0 - copie\mingw32-8.1.0 - copie\sdl-1.2\include\sdl\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1575572159 c:\mingw32-8.1.0 - copie\mingw32-8.1.0 - copie\sdl-1.2\include\sdl\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1575572159 c:\mingw32-8.1.0 - copie\mingw32-8.1.0 - copie\sdl-1.2\include\sdl\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1575572159 c:\mingw32-8.1.0 - copie\mingw32-8.1.0 - copie\sdl-1.2\include\sdl\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1578414724 source:c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\glimac\src\shader.cpp
+	"glimac/Shader.hpp"
+	<fstream>
+	<stdexcept>
+	<string>
+	<sstream>
+
+1578414724 source:c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\glimac\src\sphere.cpp
+	<cmath>
+	<vector>
+	<iostream>
+	"glimac/common.hpp"
+	"glimac/Sphere.hpp"
+
+1578414723 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\glimac\include\glimac\sphere.hpp
+	<vector>
+	"common.hpp"
+
+1578498920 source:c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\glimac\src\superchunk.cpp
+	<iostream>
+	"glimac/common.hpp"
+	"glimac/SuperChunk.hpp"
+	<glimac/glm.hpp>
+
+1578498320 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\glimac\include\glimac\superchunk.hpp
+	"common.hpp"
+	<glimac/Chunk.hpp>
+	"glimac/World.hpp"
+	"glimac/CubeProgram.hpp"
+	"glimac/common.hpp"
+	<glimac/glm.hpp>
+	<vector>
+
+1579641526 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\glimac\include\glimac\world.hpp
+	"common.hpp"
+	"glimac/Chunk.hpp"
+	"glimac/CubeProgram.hpp"
+	"glimac/DecorTypes.hpp"
+	<glimac/glm.hpp>
+
+1578845496 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\glimac\include\glimac\cubeprogram.hpp
+	"glm.hpp"
+	<glimac/Program.hpp>
+	<glimac/FilePath.hpp>
+
+1579447390 source:c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\glimac\src\texturesatlas.cpp
+	"glimac/TexturesAtlas.hpp"
+	<iostream>
+
+1578414724 source:c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\glimac\src\tiny_obj_loader.cpp
+	<cstdlib>
+	<cstring>
+	<cassert>
+	<string>
+	<vector>
+	<map>
+	<fstream>
+	<sstream>
+	"tiny_obj_loader.h"
+
+1578414724 source:c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\glimac\src\trackballcamera.cpp
+	"glimac/TrackballCamera.hpp"
+
+1578414723 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\glimac\include\glimac\trackballcamera.hpp
+	<glm/glm.hpp>
+	<glimac/glm.hpp>
+	<math.h>
+
+1579642132 source:c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\glimac\src\world.cpp
+	<iostream>
+	"glimac/common.hpp"
+	"glimac/World.hpp"
+	<glimac/glm.hpp>
+
+1579625448 source:c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\mastercraft\main.cpp
+	<glimac/SDLWindowManager.hpp>
+	<GL/glew.h>
+	<iostream>
+	<vector>
+	<math.h>
+	<algorithm>
+	<glimac/glm.hpp>
+	<glimac/Program.hpp>
+	<glimac/FilePath.hpp>
+	<glimac/Image.hpp>
+	<glimac/common.hpp>
+	<glimac/Player.hpp>
+	<glimac/World.hpp>
+	<glimac/Cube.hpp>
+	<glimac/SuperChunk.hpp>
+	<glimac/Chunk.hpp>
+	<glimac/Color.hpp>
+	<glimac/CubeProgram.hpp>
+
+1579641355 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\glimac\include\glimac\decortypes.hpp
+	"glm.hpp"
+	"Color.hpp"
+	<vector>
+
+1579641237 source:c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\glimac\src\decortypes.cpp
+	"glimac/DecorTypes.hpp"
+	<iostream>
+
+1579613029 source:c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\glimac\src\player.cpp
+	"glimac/Player.hpp"
+	<iostream>
+
+1579612129 c:\users\roland\documents\garamon\garamon-master\build\output\garamon_c3ga\cga_project\mastercraft2\glimac\include\glimac\player.hpp
+	"glm.hpp"
+	"MasterCraftCamera.hpp"
+	"World.hpp"
+	<cmath>
+	<iostream>
+	<vector>
+
